@@ -263,7 +263,7 @@
     document.body.addEventListener('click', () => {
       const audio = document.getElementById("christmasSound");
       audio.play().then(() => {
-        audio.muted = false; // Unmute after play
+        audio.muted = false;
       }).catch((error) => {
         console.log('Error playing audio:', error);
       });
