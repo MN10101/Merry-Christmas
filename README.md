@@ -16,6 +16,8 @@ Welcome to the Merry Christmas animation project! This project creates a festive
 - **Christmas Tree:** A Christmas tree with colorful blinking lights.
 - **Santa Claus:** A moving Santa Claus animation.
 - **Festive Greeting:** A glowing "Merry Christmas" text.
+- **Background Music:** Christmas-themed music that plays automatically with sound after user interaction.
+
 
 ## How to Use
 1. Clone the repository:
@@ -32,6 +34,6 @@ Welcome to the Merry Christmas animation project! This project creates a festive
 ## Happy Holidays! 🎉
 
 
-[<video width="100%" autoplay muted loop> <source src="https://github.com/user-attachments/assets/8fc3e36d-7b5a-444f-81e1-43f34966b54a" type="video/mp4"> Your browser does not support the video tag. </video>](https://github.com/user-attachments/assets/8fc3e36d-7b5a-444f-81e1-43f34966b54a)
+https://github.com/user-attachments/assets/9a265cec-c722-4162-8930-46cbcd2c614b
 
 
