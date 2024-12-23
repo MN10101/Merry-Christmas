@@ -32,6 +32,6 @@ Welcome to the Merry Christmas animation project! This project creates a festive
 ## Happy Holidays! 🎉
 
 
-https://github.com/user-attachments/assets/8fc3e36d-7b5a-444f-81e1-43f34966b54a
+<video width="100%" autoplay muted loop> <source src="https://github.com/user-attachments/assets/8fc3e36d-7b5a-444f-81e1-43f34966b54a" type="video/mp4"> Your browser does not support the video tag. </video>
 
 
