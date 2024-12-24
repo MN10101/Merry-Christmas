@@ -233,12 +233,16 @@ const canvas = document.getElementById("christmasCanvas");
       createTreeLights();
     });
 
-    // Play the audio when the user clicks anywhere
-    document.body.addEventListener('click', () => {
-      const audio = document.getElementById("christmasSound");
-      audio.play().then(() => {
-        audio.muted = false;
-      }).catch((error) => {
-        console.log('Error playing audio:', error);
+    const audio = document.getElementById('christmasSound');
+
+    function playAudio() {
+      audio.play().catch(() => {
+        // Retry playing the audio if it is blocked
+        document.body.addEventListener('click', () => {
+          audio.play();
+        }, { once: true });
       });
-    });
+    }
+
+    // Trigger audio playback automatically
+    window.addEventListener('load', playAudio);
